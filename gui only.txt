@@ -1,0 +1,11 @@
+الاسكربت بتاع الopen:
+
+script.Parent.MouseButton1Down:Connect(function()
+ script.Parent.Parent.Frame.Visible = true
+end)
+
+الاسكربت بتاع الclose:
+
+script.Parent.MouseButton1Down:Connect(function()
+ script.Parent.Parent.Visible = false
+end)
